@@ -1,3 +1,3 @@
 # Mentorbot
 
-a [Sails](http://sailsjs.org) application
+Fellows-to-Fellows mentoring bot. enjoy
