@@ -1,3 +1,3 @@
 # Mentorbot
 
-Fellows-to-Fellows mentoring bot. enjoy
+Fellows-to-Fellows mentoring bot. enjoy it
