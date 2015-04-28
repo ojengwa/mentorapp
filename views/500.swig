@@ -60,16 +60,10 @@
         <h2>
           Something isn't right here.
         </h2>
-        <% if (typeof error !== 'undefined') { %>
-        <pre class="error"><code>
-        	<%- error %>
-        </code></pre>
-        <% } else { %>
-       <p class="error">
-          A team of highly trained sea bass is working on this as we speak.<br/>
-          If the problem persists, please <a href="mailto://bernard.ojengwa@andela.co">contact the system administrator</a> and inform them of the time that the error occured, and anything you might have done that may have caused the error.
-        </p>
-      <% } %>
+         <p class="error">
+            A team of highly trained sea bass is working on this as we speak.<br/>
+            If the problem persists, please <a href="mailto://bernard.ojengwa@andela.co">contact the system administrator</a> and inform them of the time that the error occured, and anything you might have done that may have caused the error.
+          </p>
 
       </div>
     </div>

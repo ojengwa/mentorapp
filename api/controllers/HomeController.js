@@ -5,6 +5,8 @@
  * @help        :: See http://links.sailsjs.org/docs/controllers
  */
 
+var passport = require('passport');
+
 module.exports = {
 
   index: function(req, res) {
@@ -30,7 +32,7 @@ module.exports = {
           res.view('500');
           return;
         };
-        res.redirect('/profile');
+        res.redirect('/callback');
         return;
       });
     })(req, res);

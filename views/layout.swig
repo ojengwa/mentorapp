@@ -62,5 +62,8 @@
   <script src="/js/materialize.js"></script>
   <script type="text/javascript">
   </script>
+  {% block local_js %}
+
+  {% endblock local_js %}
   </body>
 </html>

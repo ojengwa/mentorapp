@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content=" ">
-    <title>MentorBot - Dashboard</title>
+    <title>MentorBot - The Council</title>
     <!-- Favicons-->
     <link rel="apple-touch-icon-precomposed" href="favicon.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">

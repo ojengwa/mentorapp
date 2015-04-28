@@ -54,11 +54,7 @@
           Forbidden
         </h1>
         <h2>
-          <% if (typeof error !== 'undefined') { %>
-          <%= error %>
-          <% } else { %>
           You don't have permission to see the page you're trying to reach.
-          <% } %>
         </h2>
         <p class="help">
           <a href="http://en.wikipedia.org/wiki/HTTP_403">Why</a> might this be happening?

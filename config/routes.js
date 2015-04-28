@@ -34,7 +34,7 @@ module.exports.routes = {
 
   '/': {
     controller: 'home',
-    action: 'index',
+    action: 'index'
   },
 
   /***************************************************************************
@@ -58,10 +58,55 @@ module.exports.routes = {
   },
 
   //Fellows Profile routes
+  //
+
+  '/callback': {
+    controller: 'fellow',
+    action: 'success'
+  },
+
+  '/home': {
+    controller: 'fellow',
+    action: 'index'
+  },
+
   '/profile': {
-    controller: 'home',
+    controller: 'fellow',
     action: 'profile'
   },
 
+  '/mentors': {
+    controller: 'fellow',
+    action: 'mentor'
+  },
+
+  '/mentees': {
+    controller: 'fellow',
+    action: 'mentees'
+  },
+
+//Jedis Routes
+//
+
+  '/jedi': {
+    controller: 'jedi',
+    action: 'index'
+  },
+
+  '/locker': {
+    controller: 'jedi',
+    action: 'locker'
+  },
+
+  '/fixbot': {
+    controller: 'jedi',
+    action: 'fixbot'
+  },
+
+
+  '/feedback': {
+    controller: 'jedi',
+    action: 'feedback'
+  },
 
 };
